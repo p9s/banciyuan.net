@@ -8,7 +8,6 @@
   -H 'referer: https://bcy.net/search/home?k=%E7%BB%98%E5%B8%88' \
   -H 'sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"' \
   -H 'sec-ch-ua-mobile: ?1' \
-  -H 'sec-fetch-dest: document' \
   -H 'sec-fetch-mode: navigate' \
   -H 'sec-fetch-site: same-origin' \
   -H 'sec-fetch-user: ?1' \
@@ -16,7 +15,7 @@
   -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36' \
   --compressed
 
-* user search with pagenate
+* user search with paginate
 curl 'https://bcy.net/apiv3/search/getUser?query=%E7%BB%98%E5%B8%88&from=2&size=30&searchId=79713937-f9cf-457b-b4a0-31cff3d1f3b5' \
   -H 'authority: bcy.net' \
   -H 'accept: */*' \
